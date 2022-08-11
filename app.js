@@ -92,5 +92,5 @@ function isLoggedIn(req, res, next) {
  
 var port = process.env.PORT || 3000;
 app.listen(port, function () {
-    console.log("Server Has Started!");
+    console.log(`Server Has Started on ${port}`);
 });
